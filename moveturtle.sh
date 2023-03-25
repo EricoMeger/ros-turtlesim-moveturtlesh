@@ -25,7 +25,7 @@ angular:
   y: 0.0
   z: 0.0"
 
-elif [ $COMANDO == 'girar' ]; then
+elif [ $COMANDO == 'virar' ]; then
 rostopic pub /turtle1/cmd_vel geometry_msgs/Twist "linear: 
   x: 0.0
   y: 0.0
